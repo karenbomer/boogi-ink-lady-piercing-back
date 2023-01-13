@@ -12,7 +12,9 @@ use Symfony\Component\Serializer\Annotation\Groups;
 /**
  * @ORM\Entity(repositoryClass=ActivityRepository::class)
  * @ApiResource
+ * 
  */
+
 class Activity
 {
     /**
